@@ -33,7 +33,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Blog",
-        url: "/blog",
+        url: "blog.ledraa.space",
         icon: PencilLine,
       },
     ],
