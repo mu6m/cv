@@ -1,5 +1,6 @@
 import { DatafyLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { PencilLine } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Ledraa",
@@ -8,7 +9,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Riyadh",
   about: "Full Stack Developer",
   summary:
-    "my passion is creating free and opensource software for everyone to use, from simple webapps to complex services my goal is to create accessible and reliable software for everyone.",
+    "my passion is creating free and open source software for everyone to use, from simple webapps to complex services my goal is to create accessible and reliable software for everyone.",
   avatarUrl: "https://avatars.githubusercontent.com/u/121174019?v=4",
   personalWebsiteUrl: "https://ledraa.space/",
   contact: {
@@ -30,6 +31,11 @@ export const RESUME_DATA = {
         url: "https://x.com/theledraa",
         icon: XIcon,
       },
+      {
+        name: "Blog",
+        url: "/blog",
+        icon: PencilLine,
+      },
     ],
   },
   education: [
@@ -44,13 +50,20 @@ export const RESUME_DATA = {
     {
       company: "Datafy",
       link: "https://datafy.ledraa.space/",
-      badges: ["Nextjs", "tailwind", "drizzle orm", "golang"],
+      badges: [
+        "Nextjs",
+        "tailwind",
+        "drizzle orm",
+        "golang",
+        "task managment",
+        "inngest",
+      ],
       title: "CEO",
       logo: DatafyLogo,
       start: "2024",
       end: null,
       description:
-        "a SaaS application that i created to create mock data fast and easy using ai and it is opensource, the app is made using the latest version of nextjs (15rc) with drizzle and tailwind the backend is created using golang and asynq for creating a robust and scale-able backend with redis for handling the tasks with it's pub/sub system for Scaleability which is also hosted on fly.io using docker",
+        "a SaaS application that i created to generate mock data fast and easy using ai and it is opensource, the app is made using the latest version of nextjs (15rc) with drizzle and tailwind the backend is created using golang and asynq for creating a robust and scale-able backend with redis for handling the tasks with it's pub/sub system for Scaleability which is also hosted on fly.io using docker",
     },
   ],
   skills: [
@@ -66,6 +79,24 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Datafy",
+      techStack: [
+        "Nextjs",
+        "tailwind",
+        "drizzle orm",
+        "golang",
+        "asynq",
+        "inngest",
+      ],
+      description:
+        "a SaaS application that i created to generate mock data fast and easy using ai",
+      logo: DatafyLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/datafy",
+      },
+    },
+    {
       title: "Next Store",
       techStack: [
         "Nextjs",
@@ -79,6 +110,18 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/mu6m/next-store",
+      },
+    },
+    {
+      title: "BlocksBin",
+      techStack: ["sveltekit", "sass", "resend (email)", "typescript"],
+      description:
+        "A Full Stack website made to sort the your text content in a better way",
+
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/blocks-bin",
       },
     },
     {
@@ -105,6 +148,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Rust Captcha",
+      techStack: ["Rust", "Vercel Serverless"],
+      description:
+        "a serverless app that uses rust to generate captchas and check the user response used to prevent ddos attacks also i made a nextjs app that implements it",
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/serverless-captcha",
+      },
+    },
+    {
       title: "WebSocket Handler",
       techStack: ["socket.io", "node.js"],
       description: "an opensource project for managing websocket lobbies",
@@ -113,6 +167,18 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/mu6m/socket.io-lobby-handler",
+      },
+    },
+    {
+      title: "Directory lister",
+      techStack: ["Golang"],
+      description:
+        "a an app that uses golang to allow the user to upload files and list them from the hosted directory",
+
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/directory-lister",
       },
     },
     {
@@ -126,17 +192,7 @@ export const RESUME_DATA = {
         href: "https://github.com/mu6m/peer-video-chat",
       },
     },
-    {
-      title: "Rust Captcha",
-      techStack: ["Rust", "Vercel Serverless"],
-      description:
-        "a serverless app that uses rust to generate captchas and check the user response used to prevent ddos attacks also i made a nextjs app that implements it",
-      logo: null,
-      link: {
-        label: "github.com",
-        href: "https://github.com/mu6m/serverless-captcha",
-      },
-    },
+
     {
       title: "ReStream",
       techStack: ["Nginx"],
@@ -146,6 +202,18 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/mu6m/nginx-restream",
+      },
+    },
+    {
+      title: "Clip It",
+      techStack: ["Rust", "ffmpeg"],
+      description:
+        "a program that uses ffmpeg to record a clip ( 15 minutes long ) at highest resolution possible",
+
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/clip-it",
       },
     },
     {
@@ -160,6 +228,41 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Next Drive",
+      techStack: ["Nextjs", "graphql", "hasura", "jwt", "express"],
+      description:
+        "a self hosted file storage with folder upload and multiple files support",
+
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/next-drive",
+      },
+    },
+    {
+      title: "Recipe Api",
+      techStack: ["bunjs", "python", "elysia", "prisma", "postgres"],
+      description:
+        "an api that can search and sort recipes it has 8300+ recipes",
+
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/recipe-api",
+      },
+    },
+    {
+      title: "Talkomatic",
+      techStack: ["Svelte", "Socket.io"],
+      description:
+        "opensource webapp made using svelte and socket.io to simulate how old chat application were made ",
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/talkomatic-clone",
+      },
+    },
+    {
       title: "InView",
       techStack: ["Svelte"],
       description: "an inview hook made for svelte",
@@ -168,6 +271,29 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/mu6m/svelte-inview",
+      },
+    },
+    {
+      title: "Payall",
+      techStack: ["Nextjs", "sass", "styled components", "typescript"],
+      description:
+        "a concept payment company website heavily inspired by a design i saw on behance so instead of it being just an idea turned it into a website",
+
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://payall-dev.vercel.app/",
+      },
+    },
+    {
+      title: "CoinSav",
+      techStack: ["Remixjs", "sass", "styled components", "typescript"],
+      description: "a website made to mimic a crypto trading platform",
+
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://coin-sav.vercel.app/",
       },
     },
   ],

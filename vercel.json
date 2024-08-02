@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/blog/", "destination": "https://ledraa-blog.vercel.app/" },
+    {
+      "source": "/blog/:match*",
+      "destination": "https://ledraa-blog.vercel.app/:match*"
+    },
+    { "source": "/", "destination": "https://cv-ledraa.vercel.app/" },
+    {
+      "source": "/:match*",
+      "destination": "https://cv-ledraa.vercel.app/:match*"
+    }
+  ]
+}
