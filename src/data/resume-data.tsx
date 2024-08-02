@@ -6,8 +6,7 @@ export const RESUME_DATA = {
   initials: "Ledraa",
   location: "Saudi Arabia, Riyadh",
   locationLink: "https://www.google.com/maps/place/Riyadh",
-  about:
-    "Full Stack Developer dedicated to building scalable and reliable apps.",
+  about: "Full Stack Developer",
   summary:
     "my passion is creating free and opensource software for everyone to use, from simple webapps to complex services my goal is to create accessible and reliable software for everyone.",
   avatarUrl: "https://avatars.githubusercontent.com/u/121174019?v=4",
