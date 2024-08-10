@@ -50,14 +50,7 @@ export const RESUME_DATA = {
     {
       company: "Datafy",
       link: "https://datafy.ledraa.space/",
-      badges: [
-        "Nextjs",
-        "tailwind",
-        "drizzle orm",
-        "golang",
-        "task managment",
-        "inngest",
-      ],
+      badges: ["Nextjs", "golang", "AI", "LLM"],
       title: "CEO",
       logo: DatafyLogo,
       start: "2024",
