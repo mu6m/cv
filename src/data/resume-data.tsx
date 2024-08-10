@@ -97,6 +97,22 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Next POS",
+      techStack: [
+        "Nextjs",
+        "tailwind",
+        "drizzle",
+        "Lemon squeezy (for handling payments)",
+      ],
+      description:
+        "an opensource pos system for business that can create invoices and manage the warehouse and handle different actions for business ",
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/next-pos",
+      },
+    },
+    {
       title: "Next Store",
       techStack: [
         "Nextjs",
@@ -113,6 +129,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Convert Now",
+      techStack: ["Nextjs", "tailwind", "ffmpeg"],
+      description:
+        "an opensource webapp for converting different types of files online",
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://convert.ledraa.space/",
+      },
+    },
+    {
       title: "Emeal",
       techStack: ["Flutter", "Firebase"],
       description:
@@ -123,22 +150,7 @@ export const RESUME_DATA = {
         href: "https://github.com/mu6m/emeal",
       },
     },
-    {
-      title: "Next POS",
-      techStack: [
-        "Nextjs",
-        "tailwind",
-        "drizzle",
-        "Lemon squeezy (for handling payments)",
-      ],
-      description:
-        "an opensource pos system for business that can create invoices and manage the warehouse and handle different actions for business ",
-      logo: null,
-      link: {
-        label: "github.com",
-        href: "https://github.com/mu6m/next-pos",
-      },
-    },
+
     {
       title: "BlocksBin",
       techStack: ["sveltekit", "sass", "resend (email)", "typescript"],
