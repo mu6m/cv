@@ -113,6 +113,33 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Emeal",
+      techStack: ["Flutter", "Firebase"],
+      description:
+        "a mobile app used to create meals based on the user prefrences",
+      logo: DatafyLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/emeal",
+      },
+    },
+    {
+      title: "Next POS",
+      techStack: [
+        "Nextjs",
+        "tailwind",
+        "drizzle",
+        "Lemon squeezy (for handling payments)",
+      ],
+      description:
+        "an opensource pos system for business that can create invoices and manage the warehouse and handle different actions for business ",
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/next-pos",
+      },
+    },
+    {
       title: "BlocksBin",
       techStack: ["sveltekit", "sass", "resend (email)", "typescript"],
       description:
