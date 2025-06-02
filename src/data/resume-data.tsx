@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   summary:
     "developing apps, analyzing data, training AI models.",
   avatarUrl: "https://avatars.githubusercontent.com/u/121174019?v=4",
-  personalWebsiteUrl: "https://ledraa.space/",
+  personalWebsiteUrl: "https://ledraa.com/",
   contact: {
     email: "theledraa@gmail.com",
     tel: null,
@@ -49,7 +49,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Datafy",
-      link: "https://datafy.ledraa.space/",
+      link: "https://github.com/mu6m/datafy",
       badges: ["Nextjs", "golang", "AI", "LLM"],
       title: "CEO",
       logo: DatafyLogo,
@@ -129,7 +129,7 @@ export const RESUME_DATA = {
       logo: null,
       link: {
         label: "github.com",
-        href: "https://convert.ledraa.space/",
+        href: "https://github.com/mu6m/convert-now",
       },
     },
     {
