@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Riyadh",
   about: "Full Stack Developer",
   summary:
-    "my passion is creating free and open source software for everyone to use, from simple webapps to complex services my goal is to create accessible and reliable software for everyone.",
+    "developing apps, analyzing data, training AI models.",
   avatarUrl: "https://avatars.githubusercontent.com/u/121174019?v=4",
   personalWebsiteUrl: "https://ledraa.space/",
   contact: {
