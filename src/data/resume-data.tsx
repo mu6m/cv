@@ -1,6 +1,6 @@
 import { DatafyLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import { PencilLine } from "lucide-react";
+import { PencilLine, Cpu } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Ledraa",
@@ -30,6 +30,11 @@ export const RESUME_DATA = {
         name: "X",
         url: "https://x.com/theledraa",
         icon: XIcon,
+      },
+      {
+        name: "Cpu",
+        url: "https://huggingface.co/aledraa",
+        icon: Cpu,
       },
       {
         name: "Blog",
