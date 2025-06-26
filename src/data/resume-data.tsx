@@ -55,7 +55,7 @@ export const RESUME_DATA = {
     {
       company: "DataTime",
       link: "https://github.com/mu6m/datafy",
-      badges: ["Web Development", "AWS", "Apache", "Next.js", "Laravel", "System Management", "Database Managment"],
+      badges: ["Web Development", "AWS", "Apache", "System Management", "Database Managment"],
       title: "Full Stack Developer",
       logo: null,
       start: "Oct 2024",
