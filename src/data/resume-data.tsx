@@ -1,6 +1,6 @@
 import { DatafyLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import { PencilLine, Cpu, CodeXml, DatabaseBackup } from "lucide-react";
+import { PencilLine, Cpu } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Ledraa",
@@ -57,7 +57,7 @@ export const RESUME_DATA = {
       link: "https://github.com/mu6m/datafy",
       badges: ["Web Development", "AWS", "Apache", "Next.js", "Laravel", "System Management", "Database Managment"],
       title: "Full Stack Developer",
-      logo: CodeXml,
+      logo: null,
       start: "Oct 2024",
       end: "June 2025",
       description:
@@ -68,7 +68,7 @@ export const RESUME_DATA = {
       link: "https://github.com/mu6m/datafy",
       badges: ["Python", "Data scraping", "Data analysis", "Big Data"],
       title: "Data Analyst",
-      logo: DatabaseBackup,
+      logo: null,
       start: "Aug 2024",
       end: "Nov 2024",
       description:
