@@ -1,5 +1,5 @@
 import { DatafyLogo } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, Building } from "@/components/icons";
 import { PencilLine, Cpu } from "lucide-react";
 
 export const RESUME_DATA = {
@@ -53,15 +53,26 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Datafy",
+      company: "DataTime",
       link: "https://github.com/mu6m/datafy",
-      badges: ["Nextjs", "golang", "AI", "LLM"],
-      title: "CEO",
-      logo: DatafyLogo,
-      start: "2024",
-      end: null,
+      badges: ["Web Development", "AWS", "Apache", "Next.js", "Laravel", "System Management", "Database Managment"],
+      title: "Full Stack Developer",
+      logo: Building,
+      start: "Oct 2024",
+      end: "June 2025",
       description:
-        "a SaaS application that i created to generate mock data fast and easy using ai and it is opensource, the app is made using the latest version of nextjs (15rc) with drizzle and tailwind the backend is created using golang and asynq for creating a robust and scale-able backend with redis for handling the tasks with it's pub/sub system for Scaleability which is also hosted on fly.io using docker",
+        "Developing and managing websites/systems that required specific solutions for different clients",
+    },
+    {
+      company: "Juniper Strategy Ltd",
+      link: "https://github.com/mu6m/datafy",
+      badges: ["Python", "Data scraping", "Data analysis", "Big Data"],
+      title: "Data Analyst",
+      logo: Building,
+      start: "Aug 2024",
+      end: "Nov 2024",
+      description:
+        "Collecting and analyzing data for different clients for consulting purposes",
     },
   ],
   skills: [
@@ -72,58 +83,60 @@ export const RESUME_DATA = {
     "Bun.js/Node.js",
     "Postgres",
     "Flutter",
-    "WebSockets",
-    "WebRTC",
+    "Python",
+    "Machine Learning",
   ],
   projects: [
     {
       title: "Datafy",
       techStack: [
-        "Nextjs",
+        "Remixjs",
         "tailwind",
-        "drizzle orm",
+        "mistral AI",
+        "Hugginface",
+        "pytorch",
         "golang",
-        "asynq",
+        "redis",
         "inngest",
       ],
       description:
-        "a SaaS application that i created to generate mock data fast and easy using ai",
+        "Open Source SaaS application that allows you to generate, analyze, and scrape data using AI",
       logo: DatafyLogo,
       link: {
         label: "github.com",
-        href: "https://github.com/mu6m/datafy",
+        href: "https://github.com/mu6m/better-datafy",
       },
     },
     {
-      title: "Next POS",
+      title: "Open Store",
+      techStack: [
+        "Remixjs",
+        "tailwind",
+        "Lemon squeezy (for handling payments)",
+        "Postgres",
+        "drizzle",
+      ],
+      description:
+        "Open Source project made for business to manage, customize and host their own ecommerce website",
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/open-store",
+      },
+    },
+    {
+      title: "Next Pos",
       techStack: [
         "Nextjs",
         "tailwind",
         "drizzle",
-        "Lemon squeezy (for handling payments)",
       ],
       description:
-        "an opensource pos system for business that can create invoices and manage the warehouse and handle different actions for business ",
+        "an opensource pos system for business that can create invoices and manage the warehouse and handle different actions for business",
       logo: null,
       link: {
         label: "github.com",
         href: "https://github.com/mu6m/next-pos",
-      },
-    },
-    {
-      title: "Next Store",
-      techStack: [
-        "Nextjs",
-        "tailwind",
-        "prisma orm",
-        "Lemon squeezy (for handling payments)",
-      ],
-      description:
-        "an opensource webapp for creating online stores for business with different sizes aimed for scalability and ability to modify the code with a management system that simplifies different crud operations ",
-      logo: null,
-      link: {
-        label: "github.com",
-        href: "https://github.com/mu6m/next-store",
       },
     },
     {
