@@ -55,7 +55,7 @@ export const RESUME_DATA = {
     {
       company: "DataTime",
       link: "https://github.com/mu6m/datafy",
-      badges: ["Web Development", "AWS", "System Management", "Database Managment"],
+      badges: ["Web Development", "AWS", "System Management"],
       title: "Full Stack Developer",
       logo: null,
       start: "Oct 2024",
@@ -66,7 +66,7 @@ export const RESUME_DATA = {
     {
       company: "Juniper Strategy Ltd",
       link: "https://github.com/mu6m/datafy",
-      badges: ["Python", "Data scraping", "Data analysis", "Big Data"],
+      badges: ["Python", "Data scraping", "Data analysis"],
       title: "Data Analyst",
       logo: null,
       start: "Aug 2024",
@@ -122,6 +122,23 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/mu6m/open-store",
+      },
+    },
+    {
+      title: "Stock Analyzer",
+      techStack: [
+        "Laravel",
+        "tailwind",
+        "MySql",
+        "Python",
+        "Cronjobs",
+      ],
+      description:
+        "Open Source platform to perform different analytics on stocks for Tadawul Market",
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/stock-analyzer",
       },
     },
     {
