@@ -105,12 +105,12 @@ export default function Page() {
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex flex-col justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-between gap-x-1 font-semibold leading-none">
+                    <h3 className="inline-flex flex-col gap-2 sm:flex-row items-start justify-between font-semibold leading-none">
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
 
-                      <span className="inline-flex gap-x-1">
+                      <span className="flex flex-wrap gap-2 my-2">
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
