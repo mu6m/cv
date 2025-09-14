@@ -59,7 +59,7 @@ export const RESUME_DATA = {
       title: "Full Stack Developer",
       logo: null,
       start: "Oct 2024",
-      end: "June 2025",
+      end: "June 2025", // Sep 13
       description:
         "Developing and managing websites/systems that required specific solutions for different clients",
     },
@@ -92,7 +92,7 @@ export const RESUME_DATA = {
       techStack: [
         "Remixjs",
         "tailwind",
-        "mistral AI",
+        "LLM",
         "Hugginface",
         "pytorch",
         "golang",
@@ -105,23 +105,6 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/mu6m/better-datafy",
-      },
-    },
-    {
-      title: "Open Store",
-      techStack: [
-        "Remixjs",
-        "tailwind",
-        "Lemon squeezy (for handling payments)",
-        "Postgres",
-        "drizzle",
-      ],
-      description:
-        "Open Source project made for business to manage, customize and host their own ecommerce website",
-      logo: null,
-      link: {
-        label: "github.com",
-        href: "https://github.com/mu6m/open-store",
       },
     },
     {
@@ -142,18 +125,31 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Next Pos",
+      title: "Open Store",
       techStack: [
-        "Nextjs",
+        "Remixjs",
         "tailwind",
+        "Lemon squeezy (for handling payments)",
+        "Postgres",
         "drizzle",
       ],
       description:
-        "an opensource pos system for business that can create invoices and manage the warehouse and handle different actions for business",
+        "Open Source project made for business to manage, customize and host their own ecommerce website",
       logo: null,
       link: {
         label: "github.com",
-        href: "https://github.com/mu6m/next-pos",
+        href: "https://github.com/mu6m/open-store",
+      },
+    },
+    {
+      title: "OpenStore Admin",
+      techStack: ["nextjs", "shadcn", "PostgresDB"],
+      description:
+        "Ddmin dashboard for openstore using nextjs",
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/open-store-admin",
       },
     },
     {
@@ -169,26 +165,13 @@ export const RESUME_DATA = {
     },
     {
       title: "Emeal",
-      techStack: ["Flutter", "Firebase"],
+      techStack: ["Flutter", "Clerk", "LLM", "HuggingFace"],
       description:
-        "a mobile app used to create meals based on the user prefrences",
+        "a mobile app used to create meals based on the user prefrences using AI",
       logo: DatafyLogo,
       link: {
         label: "github.com",
         href: "https://github.com/mu6m/emeal",
-      },
-    },
-
-    {
-      title: "BlocksBin",
-      techStack: ["sveltekit", "sass", "resend (email)", "typescript"],
-      description:
-        "A Full Stack website made to sort the your text content in a better way",
-
-      logo: null,
-      link: {
-        label: "github.com",
-        href: "https://github.com/mu6m/blocks-bin",
       },
     },
     {
@@ -212,6 +195,21 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/mu6m/my-invoice",
+      },
+    },
+    {
+      title: "Next Pos",
+      techStack: [
+        "Nextjs",
+        "tailwind",
+        "drizzle",
+      ],
+      description:
+        "an opensource pos system for business that can create invoices and manage the warehouse and handle different actions for business",
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://github.com/mu6m/next-pos",
       },
     },
     {
