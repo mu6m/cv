@@ -47,7 +47,7 @@ export const RESUME_DATA = {
     {
       school: "King Saud University",
       degree: "Bachelor's Degree in Computer Science",
-      start: "2021",
+      start: "2022",
       end: "present",
     },
   ],
