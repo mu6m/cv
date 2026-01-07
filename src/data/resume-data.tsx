@@ -81,12 +81,28 @@ export const RESUME_DATA = {
     "TypeScript",
     "Drizzle/Prisma",
     "Bun.js/Node.js",
-    "Postgres",
-    "Flutter",
+    "Postgres/MySQL/Firebase",
     "Python",
-    "Machine Learning",
+    "AWS",
+    "Pytorch",
   ],
   projects: [
+    {
+      title: "Project Kit",
+      techStack: [
+        "React Router",
+        "shadcn",
+        "Convex",
+        "clerk",
+      ],
+      description:
+        "For tracking features and issues with your projects and planning with your organization team on solving/implementing them",
+      logo: null,
+      link: {
+        label: "github.com",
+        href: "https://kit.ledraa.com/",
+      },
+    },
     {
       title: "Datafy",
       techStack: [
