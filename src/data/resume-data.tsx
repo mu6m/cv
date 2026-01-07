@@ -116,7 +116,7 @@ export const RESUME_DATA = {
         "inngest",
       ],
       description:
-        "Open Source SaaS application that allows you to generate, analyze, and scrape data using AI",
+        "SaaS application that allows you to generate, analyze, and scrape data using AI",
       logo: DatafyLogo,
       link: {
         label: "github.com",
@@ -133,7 +133,7 @@ export const RESUME_DATA = {
         "Cronjobs",
       ],
       description:
-        "Open Source platform to perform different analytics on stocks for Tadawul Market",
+        "Platform for performing different analytics on stocks for Saudi Tadawul Market",
       logo: null,
       link: {
         label: "github.com",
