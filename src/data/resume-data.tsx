@@ -54,7 +54,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "DataTime",
-      link: "https://github.com/mu6m/datafy",
+      link: "#",
       badges: ["Web Development", "AWS", "System Management"],
       title: "Full Stack Developer",
       logo: null,
@@ -65,7 +65,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Juniper Strategy Ltd",
-      link: "https://github.com/mu6m/datafy",
+      link: "#",
       badges: ["Python", "Data scraping", "Data analysis"],
       title: "Data Analyst",
       logo: null,
