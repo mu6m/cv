@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
+    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-12">
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
@@ -87,7 +87,7 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="hidden sm:block size-28">
+          <Avatar className="hidden size-28 sm:block">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
@@ -105,16 +105,16 @@ export default function Page() {
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex flex-col justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex flex-col gap-2 sm:flex-row items-start justify-between font-semibold leading-none">
+                    <h3 className="inline-flex flex-col items-start justify-between gap-2 font-semibold leading-none sm:flex-row">
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
 
-                      <span className="flex flex-wrap gap-2 my-2">
+                      <span className="my-2 flex flex-wrap gap-2">
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="align-middle text-xs print:text-[8px] print:leading-tight print:px-1 print:py-0.5"
+                            className="align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
                             key={badge}
                           >
                             {badge}
@@ -175,7 +175,7 @@ export default function Page() {
 
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard

@@ -7,6 +7,8 @@ import { MeResolver } from "../../apollo/resolvers";
 import { buildSchema } from "type-graphql";
 import { NextRequest } from "next/server";
 
+export const runtime = "edge";
+
 const schema = await buildSchema({
   resolvers: [MeResolver],
 });
