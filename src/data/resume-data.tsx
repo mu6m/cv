@@ -32,7 +32,7 @@ export const RESUME_DATA = {
         icon: XIcon,
       },
       {
-        name: "Cpu",
+        name: "HuggingFace",
         url: "https://huggingface.co/aledraa",
         icon: Cpu,
       },
