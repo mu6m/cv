@@ -76,15 +76,12 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "React",
-    "Next.js/Remix/Svelte",
-    "TypeScript",
-    "Drizzle/Prisma",
-    "Bun.js/Node.js",
-    "Postgres/MySQL/Firebase",
-    "Python",
-    "AWS",
+    "React/ReactRouter(Remix.js)",
+    "Vue.js/Nuxt",
+    "Postgres/Duckdb/MySQL/Firebase",
+    "Pandas",
     "Pytorch",
+    "AWS",
   ],
   projects: [
     {
